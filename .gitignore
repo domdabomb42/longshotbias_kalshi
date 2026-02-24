@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Environment and local config
+.env
+.env.*
+
+# Secrets
+secrets/
+*.pem
+*.key
+
+# Generated project artifacts
+outputs/
+data/raw/
+data/processed/
+
+# Local scratch / unrelated notebooks
+tmp_*.py
+kalshi_longshot_bias/3.5.ipynb
+kalshi_longshot_bias/3.6.ipynb
+kalshi_longshot_bias/3.7.ipynb
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

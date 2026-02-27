@@ -23,7 +23,6 @@ secrets/
 # Generated project artifacts
 outputs/
 data/raw/
-data/processed/
 
 # Local scratch / unrelated notebooks
 tmp_*.py
